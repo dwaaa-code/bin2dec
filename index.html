@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bin2dec converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div class="card-wrapper">
+        <div class="binary-card">
+          <input
+            id="bin-input"
+            placeholder="masukkan nomor binary!"
+            type="number" />
+        </div>
+        <button class="convert-btn" onclick="startConverter()">Convert!</button>
+        <div class="decimal-card">
+          <p id="decimal-placeholder"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
